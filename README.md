@@ -28,9 +28,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-https://im3.ezgif.com/tmp/ezgif-3-fccfa018e3dd.gif
+https://i.imgur.com/YMf0K3z.gif
 
-GIF created with [ezgif](http://www.ezgif.com).
+GIF created with Quicktime and [ezgif](http://www.ezgif.com).
 
 ## Notes
 
