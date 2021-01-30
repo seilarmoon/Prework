@@ -1,4 +1,3 @@
-# Prework
 # Pre-work - *Tip Calculator*
 
 **Tip Calculator** is a tip calculator application for iOS.
@@ -29,13 +28,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://im3.ezgif.com/tmp/ezgif-3-fccfa018e3dd.gif
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [ezgif](http://www.ezgif.com).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The biggest challenge for me was to actually get xcode to run on my old macbook, as well as creating a Github repository. The videos were helpful to walk me through the code and connecting elements from the storyboard.
 
 ## License
 
