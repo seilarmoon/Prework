@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB43622225C4FEE100A636E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43622125C4FEE100A636E5 /* AppDelegate.swift */; };
+		DB43622425C4FEE100A636E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43622325C4FEE100A636E5 /* SceneDelegate.swift */; };
+		DB43622625C4FEE100A636E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43622525C4FEE100A636E5 /* ViewController.swift */; };
+		DB43622925C4FEE100A636E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB43622725C4FEE100A636E5 /* Main.storyboard */; };
+		DB43622B25C4FEE300A636E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB43622A25C4FEE300A636E5 /* Assets.xcassets */; };
+		DB43622E25C4FEE300A636E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB43622C25C4FEE300A636E5 /* LaunchScreen.storyboard */; };
+		DB43623925C4FEE300A636E5 /* Prework___SeilaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43623825C4FEE300A636E5 /* Prework___SeilaTests.swift */; };
+		DB43624425C4FEE300A636E5 /* Prework___SeilaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43624325C4FEE300A636E5 /* Prework___SeilaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB43623525C4FEE300A636E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB43621625C4FEE000A636E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB43621D25C4FEE000A636E5;
+			remoteInfo = "Prework - Seila";
+		};
+		DB43624025C4FEE300A636E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB43621625C4FEE000A636E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB43621D25C4FEE000A636E5;
+			remoteInfo = "Prework - Seila";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB43621E25C4FEE000A636E5 /* Prework - Seila.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prework - Seila.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB43622125C4FEE100A636E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB43622325C4FEE100A636E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DB43622525C4FEE100A636E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB43622825C4FEE100A636E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB43622A25C4FEE300A636E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB43622D25C4FEE300A636E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB43622F25C4FEE300A636E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB43623425C4FEE300A636E5 /* Prework - SeilaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prework - SeilaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB43623825C4FEE300A636E5 /* Prework___SeilaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Prework___SeilaTests.swift"; sourceTree = "<group>"; };
+		DB43623A25C4FEE300A636E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB43623F25C4FEE300A636E5 /* Prework - SeilaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prework - SeilaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB43624325C4FEE300A636E5 /* Prework___SeilaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Prework___SeilaUITests.swift"; sourceTree = "<group>"; };
+		DB43624525C4FEE300A636E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB43621B25C4FEE000A636E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB43623125C4FEE300A636E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB43623C25C4FEE300A636E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB43621525C4FEE000A636E5 = {
+			isa = PBXGroup;
+			children = (
+				DB43622025C4FEE100A636E5 /* Prework - Seila */,
+				DB43623725C4FEE300A636E5 /* Prework - SeilaTests */,
+				DB43624225C4FEE300A636E5 /* Prework - SeilaUITests */,
+				DB43621F25C4FEE000A636E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB43621F25C4FEE000A636E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB43621E25C4FEE000A636E5 /* Prework - Seila.app */,
+				DB43623425C4FEE300A636E5 /* Prework - SeilaTests.xctest */,
+				DB43623F25C4FEE300A636E5 /* Prework - SeilaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB43622025C4FEE100A636E5 /* Prework - Seila */ = {
+			isa = PBXGroup;
+			children = (
+				DB43622125C4FEE100A636E5 /* AppDelegate.swift */,
+				DB43622325C4FEE100A636E5 /* SceneDelegate.swift */,
+				DB43622525C4FEE100A636E5 /* ViewController.swift */,
+				DB43622725C4FEE100A636E5 /* Main.storyboard */,
+				DB43622A25C4FEE300A636E5 /* Assets.xcassets */,
+				DB43622C25C4FEE300A636E5 /* LaunchScreen.storyboard */,
+				DB43622F25C4FEE300A636E5 /* Info.plist */,
+			);
+			path = "Prework - Seila";
+			sourceTree = "<group>";
+		};
+		DB43623725C4FEE300A636E5 /* Prework - SeilaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB43623825C4FEE300A636E5 /* Prework___SeilaTests.swift */,
+				DB43623A25C4FEE300A636E5 /* Info.plist */,
+			);
+			path = "Prework - SeilaTests";
+			sourceTree = "<group>";
+		};
+		DB43624225C4FEE300A636E5 /* Prework - SeilaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB43624325C4FEE300A636E5 /* Prework___SeilaUITests.swift */,
+				DB43624525C4FEE300A636E5 /* Info.plist */,
+			);
+			path = "Prework - SeilaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB43621D25C4FEE000A636E5 /* Prework - Seila */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB43624825C4FEE300A636E5 /* Build configuration list for PBXNativeTarget "Prework - Seila" */;
+			buildPhases = (
+				DB43621A25C4FEE000A636E5 /* Sources */,
+				DB43621B25C4FEE000A636E5 /* Frameworks */,
+				DB43621C25C4FEE000A636E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prework - Seila";
+			productName = "Prework - Seila";
+			productReference = DB43621E25C4FEE000A636E5 /* Prework - Seila.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB43623325C4FEE300A636E5 /* Prework - SeilaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB43624B25C4FEE300A636E5 /* Build configuration list for PBXNativeTarget "Prework - SeilaTests" */;
+			buildPhases = (
+				DB43623025C4FEE300A636E5 /* Sources */,
+				DB43623125C4FEE300A636E5 /* Frameworks */,
+				DB43623225C4FEE300A636E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB43623625C4FEE300A636E5 /* PBXTargetDependency */,
+			);
+			name = "Prework - SeilaTests";
+			productName = "Prework - SeilaTests";
+			productReference = DB43623425C4FEE300A636E5 /* Prework - SeilaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB43623E25C4FEE300A636E5 /* Prework - SeilaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB43624E25C4FEE300A636E5 /* Build configuration list for PBXNativeTarget "Prework - SeilaUITests" */;
+			buildPhases = (
+				DB43623B25C4FEE300A636E5 /* Sources */,
+				DB43623C25C4FEE300A636E5 /* Frameworks */,
+				DB43623D25C4FEE300A636E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB43624125C4FEE300A636E5 /* PBXTargetDependency */,
+			);
+			name = "Prework - SeilaUITests";
+			productName = "Prework - SeilaUITests";
+			productReference = DB43623F25C4FEE300A636E5 /* Prework - SeilaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB43621625C4FEE000A636E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DB43621D25C4FEE000A636E5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					DB43623325C4FEE300A636E5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DB43621D25C4FEE000A636E5;
+					};
+					DB43623E25C4FEE300A636E5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DB43621D25C4FEE000A636E5;
+					};
+				};
+			};
+			buildConfigurationList = DB43621925C4FEE000A636E5 /* Build configuration list for PBXProject "Prework - Seila" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB43621525C4FEE000A636E5;
+			productRefGroup = DB43621F25C4FEE000A636E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB43621D25C4FEE000A636E5 /* Prework - Seila */,
+				DB43623325C4FEE300A636E5 /* Prework - SeilaTests */,
+				DB43623E25C4FEE300A636E5 /* Prework - SeilaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB43621C25C4FEE000A636E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB43622E25C4FEE300A636E5 /* LaunchScreen.storyboard in Resources */,
+				DB43622B25C4FEE300A636E5 /* Assets.xcassets in Resources */,
+				DB43622925C4FEE100A636E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB43623225C4FEE300A636E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB43623D25C4FEE300A636E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB43621A25C4FEE000A636E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB43622625C4FEE100A636E5 /* ViewController.swift in Sources */,
+				DB43622225C4FEE100A636E5 /* AppDelegate.swift in Sources */,
+				DB43622425C4FEE100A636E5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB43623025C4FEE300A636E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB43623925C4FEE300A636E5 /* Prework___SeilaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB43623B25C4FEE300A636E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB43624425C4FEE300A636E5 /* Prework___SeilaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB43623625C4FEE300A636E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB43621D25C4FEE000A636E5 /* Prework - Seila */;
+			targetProxy = DB43623525C4FEE300A636E5 /* PBXContainerItemProxy */;
+		};
+		DB43624125C4FEE300A636E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB43621D25C4FEE000A636E5 /* Prework - Seila */;
+			targetProxy = DB43624025C4FEE300A636E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB43622725C4FEE100A636E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB43622825C4FEE100A636E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB43622C25C4FEE300A636E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB43622D25C4FEE300A636E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB43624625C4FEE300A636E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB43624725C4FEE300A636E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB43624925C4FEE300A636E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prework - Seila/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sbu.Prework---Seila";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB43624A25C4FEE300A636E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prework - Seila/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sbu.Prework---Seila";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB43624C25C4FEE300A636E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prework - SeilaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sbu.Prework---SeilaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prework - Seila.app/Prework - Seila";
+			};
+			name = Debug;
+		};
+		DB43624D25C4FEE300A636E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prework - SeilaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sbu.Prework---SeilaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prework - Seila.app/Prework - Seila";
+			};
+			name = Release;
+		};
+		DB43624F25C4FEE300A636E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prework - SeilaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sbu.Prework---SeilaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prework - Seila";
+			};
+			name = Debug;
+		};
+		DB43625025C4FEE300A636E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prework - SeilaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sbu.Prework---SeilaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prework - Seila";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB43621925C4FEE000A636E5 /* Build configuration list for PBXProject "Prework - Seila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB43624625C4FEE300A636E5 /* Debug */,
+				DB43624725C4FEE300A636E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB43624825C4FEE300A636E5 /* Build configuration list for PBXNativeTarget "Prework - Seila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB43624925C4FEE300A636E5 /* Debug */,
+				DB43624A25C4FEE300A636E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB43624B25C4FEE300A636E5 /* Build configuration list for PBXNativeTarget "Prework - SeilaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB43624C25C4FEE300A636E5 /* Debug */,
+				DB43624D25C4FEE300A636E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB43624E25C4FEE300A636E5 /* Build configuration list for PBXNativeTarget "Prework - SeilaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB43624F25C4FEE300A636E5 /* Debug */,
+				DB43625025C4FEE300A636E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB43621625C4FEE000A636E5 /* Project object */;
+}
